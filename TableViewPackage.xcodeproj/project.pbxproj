@@ -15,6 +15,10 @@
 		2C8BA09B1FFB22A300EE47C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8BA09A1FFB22A300EE47C9 /* main.m */; };
 		2C8BA0A51FFB22A300EE47C9 /* TableViewPackageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8BA0A41FFB22A300EE47C9 /* TableViewPackageTests.m */; };
 		2C8BA0B01FFB22A300EE47C9 /* TableViewPackageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8BA0AF1FFB22A300EE47C9 /* TableViewPackageUITests.m */; };
+		2C8BA0BF1FFB234D00EE47C9 /* KKLDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8BA0BE1FFB234D00EE47C9 /* KKLDataSource.m */; };
+		2C8BA0C21FFB2A9B00EE47C9 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8BA0C11FFB2A9B00EE47C9 /* Model.m */; };
+		2C8BA0C51FFB35D600EE47C9 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8BA0C41FFB35D600EE47C9 /* CustomTableViewCell.m */; };
+		2C8BA0CB1FFB68BC00EE47C9 /* CustomCellFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8BA0CA1FFB68BC00EE47C9 /* CustomCellFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		2C8BA0AB1FFB22A300EE47C9 /* TableViewPackageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewPackageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C8BA0AF1FFB22A300EE47C9 /* TableViewPackageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewPackageUITests.m; sourceTree = "<group>"; };
 		2C8BA0B11FFB22A300EE47C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C8BA0BD1FFB234D00EE47C9 /* KKLDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKLDataSource.h; sourceTree = "<group>"; };
+		2C8BA0BE1FFB234D00EE47C9 /* KKLDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKLDataSource.m; sourceTree = "<group>"; };
+		2C8BA0C01FFB2A9B00EE47C9 /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		2C8BA0C11FFB2A9B00EE47C9 /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		2C8BA0C31FFB35D600EE47C9 /* CustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		2C8BA0C41FFB35D600EE47C9 /* CustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		2C8BA0C91FFB68BC00EE47C9 /* CustomCellFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCellFrame.h; sourceTree = "<group>"; };
+		2C8BA0CA1FFB68BC00EE47C9 /* CustomCellFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCellFrame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,14 @@
 				2C8BA08C1FFB22A300EE47C9 /* AppDelegate.m */,
 				2C8BA08E1FFB22A300EE47C9 /* ViewController.h */,
 				2C8BA08F1FFB22A300EE47C9 /* ViewController.m */,
+				2C8BA0BD1FFB234D00EE47C9 /* KKLDataSource.h */,
+				2C8BA0BE1FFB234D00EE47C9 /* KKLDataSource.m */,
+				2C8BA0C91FFB68BC00EE47C9 /* CustomCellFrame.h */,
+				2C8BA0CA1FFB68BC00EE47C9 /* CustomCellFrame.m */,
+				2C8BA0C01FFB2A9B00EE47C9 /* Model.h */,
+				2C8BA0C11FFB2A9B00EE47C9 /* Model.m */,
+				2C8BA0C31FFB35D600EE47C9 /* CustomTableViewCell.h */,
+				2C8BA0C41FFB35D600EE47C9 /* CustomTableViewCell.m */,
 				2C8BA0911FFB22A300EE47C9 /* Main.storyboard */,
 				2C8BA0941FFB22A300EE47C9 /* Assets.xcassets */,
 				2C8BA0961FFB22A300EE47C9 /* LaunchScreen.storyboard */,
@@ -266,8 +286,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C8BA0901FFB22A300EE47C9 /* ViewController.m in Sources */,
+				2C8BA0CB1FFB68BC00EE47C9 /* CustomCellFrame.m in Sources */,
+				2C8BA0BF1FFB234D00EE47C9 /* KKLDataSource.m in Sources */,
+				2C8BA0C51FFB35D600EE47C9 /* CustomTableViewCell.m in Sources */,
 				2C8BA09B1FFB22A300EE47C9 /* main.m in Sources */,
 				2C8BA08D1FFB22A300EE47C9 /* AppDelegate.m in Sources */,
+				2C8BA0C21FFB2A9B00EE47C9 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +457,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H3U5268VM4;
 				INFOPLIST_FILE = TableViewPackage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kaike.la.TableViewPackage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +472,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H3U5268VM4;
 				INFOPLIST_FILE = TableViewPackage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kaike.la.TableViewPackage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
