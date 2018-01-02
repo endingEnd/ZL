@@ -2,7 +2,7 @@
 tableview与代理方法的解耦合，写了个简单的demo，路过的大婶多多关照
 ### 使用步骤：
 ####  给数据源添加数据
--  ```objective-c
+ ```objective-c
   NSMutableArray *array = [[NSMutableArray alloc]initWithCapacity:0];
     for (int i = 0; i < 30; i ++) {
         CustomCellFrame *cellFrame = [[CustomCellFrame alloc]init];
@@ -15,9 +15,9 @@ tableview与代理方法的解耦合，写了个简单的demo，路过的大婶�
     }
     [dataSource addModel:array];
   ```
-
-  ####    cell的代理方法
- -  /* cell高度 */
+####    cell的代理方法
+  ```objective-c
+  -  /* cell高度 */
     dataSource.ConfigureHeightBlock = ^CGFloat(CGFloat height, id cellFrame) {
         CustomCellFrame *cellModelFrame = cellFrame;
         CGFloat cellHeight = height;
@@ -34,3 +34,5 @@ tableview与代理方法的解耦合，写了个简单的demo，路过的大婶�
     dataSource.ConfigureDidSelectBlock = ^(NSInteger row, id cellFrame) {
         NSLog(@" ConfigureDidSelectBlock == %d",row);
     };
+  ```
+ 
