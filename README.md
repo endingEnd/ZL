@@ -1,7 +1,7 @@
 # ZL
 tableview与代理方法的解耦合，写了个简单的demo，路过的大婶多多关照
-使用步骤：
-给数据源添加数据
+#### 使用步骤：
+- 给数据源添加数据
 /* 给数据源添加数据 */
     NSMutableArray *array = [[NSMutableArray alloc]initWithCapacity:0];
     for (int i = 0; i < 30; i ++) {
